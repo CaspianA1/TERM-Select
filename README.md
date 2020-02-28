@@ -30,4 +30,4 @@ Here's a simple example of how you could use this:
     selection_screen()
 
 Here's what it looks like in practice:
-![Example](https://imgur.com/a/OJtwx0K)
+![Example](https://imgur.com/gallery/OJtwx0K)
