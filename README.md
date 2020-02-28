@@ -1,6 +1,6 @@
 # TERM-Select
 
-## This is a little GUI application written in Python for the terminal.
+### This is a little GUI application written in Python for the terminal.
 ### Its purpose is to make selection screens easy to make if you're writing an application that needs one.
 
 Things to know:
