@@ -6,6 +6,7 @@
 Things to know:
 1. Option tags are assigned in order to your desired functions.
 2. The up and down arrows go up and down, the left arrow exits the application, and the right one selects that tag.
+3. At the moment, red, green and blue are the only available color options.
 
 Here's a simple example of how you could use this:
 
