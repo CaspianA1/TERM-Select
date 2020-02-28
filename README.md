@@ -28,3 +28,6 @@ Here's a simple example of how you could use this:
     selection_screen.set_separator("___")
 
     selection_screen()
+
+Here's what it looks like in practice:
+
