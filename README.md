@@ -6,29 +6,33 @@
 Things to know:
 1. Option tags are assigned in order to your desired functions.
 2. The up and down arrows go up and down, the left arrow exits the application, and the right one selects that tag.
-3. At the moment, red, green and blue are the only available color options.
+3. At the moment, red, green, blue, and black are the only available color options.
 
 Here's a simple example of how you could use this:
+    # option_test.py
+
+    from option_screen import OptionScreen
 
     def func_1():
-        print("func_1.")
+     print("func_1.")
 
-    def func_1():
+    def func_2():
         print("func_2.")
 
     def func_3():
         print("func_3.")
 
     selection_screen = OptionScreen(func_1, func_2, func_3,
-                                    label_one = "First Function"
-                                    label_2 = "Second Function"
-                                    label_3 = "Third Function")
+                                    label_one = "First Label",
+                                    label_two = "Second Label",
+                                    label_three = "Third Label")
 
     selection_screen.set_color("red")
-    selection_screen.set_option_message("Welcome to my terminal application!: ")
+    selection_screen.set_option_message("Welcome to my terminal application: ")
     selection_screen.set_separator("___")
 
     selection_screen()
+
 
 Here's what it looks like in practice:
 
