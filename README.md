@@ -14,7 +14,7 @@ Here's a simple example of how you could use this:
     from option_screen import OptionScreen
 
     def func_1():
-     print("func_1.")
+        print("func_1.")
 
     def func_2():
         print("func_2.")
