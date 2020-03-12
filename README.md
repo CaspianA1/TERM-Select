@@ -9,6 +9,7 @@ Things to know:
 3. At the moment, red, green, blue, and black are the only available color options.
 
 Here's a simple example of how you could use this:
+    
     # option_test.py
 
     from option_screen import OptionScreen
